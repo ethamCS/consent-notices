@@ -674,6 +674,7 @@ def main():
 		'host_url': host_url_list,
 		'key': key_list
 	})
+	# change file name for different consent conditions 
 	df.to_csv('./output-apps.csv')
 	
 
